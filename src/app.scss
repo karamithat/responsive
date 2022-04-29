@@ -1,9 +1,15 @@
 .app{
-    margin-left: 5rem;
 
-    @media screen and (max-width: 450px) {
-        margin-left: 1rem;
+    @media screen and (max-width: 768px) {
+        margin-left: 0;
+        margin-right: 0;
     }
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
         
+          margin: 0;
+          padding: 0;
+        
+       }
+      
     }
 

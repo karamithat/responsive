@@ -1,10 +1,10 @@
-import Navbar from "./components/navbar/Navbar";
 import "./app.scss"
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div className="app" >
-      <Navbar/>
+      <Home/>
     </div>
   );
 }
